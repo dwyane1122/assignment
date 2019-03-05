@@ -1,0 +1,3828 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2019/2/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ontologies/2019/2/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2019/2/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActorOrActress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alan_Rickman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alfonso_Cuarón"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bonnie_Wright"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chris_Columbus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chris_Rankin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daniel_Radcliffe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#David_Heyman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#David_Thewlis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#David_Yates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emma_Thompson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emma_Watson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiona_Shaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gary_Oldman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Melling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helena_Bonham_Carter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#J._K._Rowling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#James_Phelps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Julie_Walters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maggie_Smith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matthew_Lewis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Michael_Gambon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mike_Newell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oliver_Phelps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ralph_Fiennes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richard_Griffiths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richard_Harris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robbie_Coltrane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rupert_Grint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tom_Felton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warwick_Davis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ActIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ActedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Direct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DirectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Produce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Write"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#WrittenBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alan_Rickman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alfonso_Cuarón"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bonnie_Wright"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Columbus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Columbus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Chris_Rankin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Heyman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Thewlis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Yates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Yates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Yates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#David_Yates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Thompson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Emma_Watson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fiona_Shaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gary_Oldman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gary_Oldman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gary_Oldman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gary_Oldman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Melling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Chris_Columbus"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Mike_Newell"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Helena_Bonham_Carter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Ralph_Fiennes"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Warwick_Davis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#David_Yates"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Helena_Bonham_Carter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Ralph_Fiennes"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Warwick_Davis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#David_Yates"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Alfonso_Cuarón"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Helena_Bonham_Carter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Helena_Bonham_Carter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Helena_Bonham_Carter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Helena_Bonham_Carter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#J._K._Rowling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#James_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Julie_Walters"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maggie_Smith"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Matthew_Lewis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Michael_Gambon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mike_Newell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oliver_Phelps"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ralph_Fiennes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ralph_Fiennes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ralph_Fiennes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ralph_Fiennes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ralph_Fiennes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Griffiths"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Richard_Harris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Robbie_Coltrane"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rupert_Grint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tom_Felton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Warwick_Davis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Warwick_Davis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Warwick_Davis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Warwick_Davis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Helena_Bonham_Carter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Ralph_Fiennes"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Warwick_Davis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#David_Yates"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#David_Thewlis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Thompson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Gary_Oldman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Helena_Bonham_Carter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Michael_Gambon"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Ralph_Fiennes"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Warwick_Davis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#David_Yates"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Alan_Rickman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Bonnie_Wright"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Chris_Rankin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Daniel_Radcliffe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Emma_Watson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Fiona_Shaw"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Harry_Melling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#James_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Julie_Walters"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Maggie_Smith"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Matthew_Lewis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Oliver_Phelps"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Griffiths"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Richard_Harris"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Robbie_Coltrane"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Rupert_Grint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Tom_Felton"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Chris_Columbus"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#David_Heyman"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#J._K._Rowling"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#ActorOrActress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actress"/>
+        <Class IRI="#ActorOrActress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alan_Rickman"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alfonso_Cuarón"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bonnie_Wright"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chris_Columbus"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chris_Rankin"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daniel_Radcliffe"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#David_Heyman"/>
+        <Class IRI="#Producer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#David_Thewlis"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#David_Yates"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emma_Thompson"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emma_Watson"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiona_Shaw"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gary_Oldman"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Melling"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Chamber_of_Secrets"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Goblet_of_Fire"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Prisoner_of_Azkaban"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helena_Bonham_Carter"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#J._K._Rowling"/>
+        <Class IRI="#Writer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#James_Phelps"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Julie_Walters"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maggie_Smith"/>
+        <Class IRI="#Actress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matthew_Lewis"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Michael_Gambon"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mike_Newell"/>
+        <Class IRI="#Director"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oliver_Phelps"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ralph_Fiennes"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richard_Griffiths"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richard_Harris"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robbie_Coltrane"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rupert_Grint"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tom_Felton"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warwick_Davis"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_1"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Deathly_Hallows_–_Part_2"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harry_Potter_and_the_Sorcerer&apos;s_Stone"/>
+        <Class IRI="#Movie"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ActIn"/>
+        <ObjectProperty IRI="#ActedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Direct"/>
+        <ObjectProperty IRI="#DirectedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Produce"/>
+        <ObjectProperty IRI="#ProducedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Write"/>
+        <ObjectProperty IRI="#WrittenBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ActIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ActedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Direct"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#DirectedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Produce"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ProducedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Write"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#WrittenBy"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ActIn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Actor"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ActIn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Actress"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ActedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Direct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DirectedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Produce"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Producer"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ProducedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ProducedBy"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Write"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Writer"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#WrittenBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ActIn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActIn"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ActedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Actor"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ActedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#ActorOrActress"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ActedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ActedBy"/>
+            <Class IRI="#Actress"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Direct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Direct"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DirectedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Produce"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produce"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ProducedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DirectedBy"/>
+            <Class IRI="#Producer"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Write"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Write"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#WrittenBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#WrittenBy"/>
+            <Class IRI="#Writer"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#ActIn</IRI>
+        <Literal>An activity in which a story is told by means of its enactment by an actor or actress who adopts a character—in theatre, television, film, radio, or any other medium that makes use of the mimetic mode.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#ActedBy</IRI>
+        <Literal>An activity in which a story is told by means of its enactment by an actor or actress who adopts a character—in theatre, television, film, radio, or any other medium that makes use of the mimetic mode.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Actor</IRI>
+        <Literal>A male person who portrays a character in a performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#ActorOrActress</IRI>
+        <Literal>A person who portrays a character in a performance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Actress</IRI>
+        <Literal>A female person who portrays a character in a performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alan_Rickman</IRI>
+        <Literal>Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director. Rickman trained at the Royal Academy of Dramatic Art in London and became a member of the Royal Shakespeare Company (RSC), performing in modern and classical theatre productions. His first big television role came in 1982, but his big break was as the Vicomte de Valmont in the RSC stage production of Les Liaisons Dangereuses in 1985, and after the production transferred to Broadway in 1987 he was nominated for a Tony Award.
+
+Rickman&apos;s first cinematic role was as the German terrorist leader Hans Gruber in Die Hard (1988). He also appeared as the Sheriff of Nottingham in Robin Hood: Prince of Thieves (1991), for which he received the BAFTA Award for Best Actor in a Supporting Role, Elliott Marston in Quigley Down Under (1990), Jamie in Truly, Madly, Deeply (1990), P.L. O&apos;Hara in An Awfully Big Adventure (1995), Colonel Brandon in Sense and Sensibility (1995), Alexander Dane in Galaxy Quest (1999), Harry in Love Actually (2003), Marvin the Paranoid Android in The Hitchhiker&apos;s Guide to the Galaxy (2005), and Judge Turpin in the film adaptation of Stephen Sondheim&apos;s musical of Sweeney Todd: The Demon Barber of Fleet Street (2007). Rickman gained further notice for his film performances as Severus Snape in the Harry Potter series.[1]
+
+Rickman made his television acting debut playing Tybalt in Romeo and Juliet (1978) as part of the BBC’s Shakespeare series. He later starred in television films, playing the title character in Rasputin: Dark Servant of Destiny (1996), which won him a Golden Globe Award, an Emmy Award and a Screen Actors Guild Award, and Dr. Alfred Blalock in the Emmy-winning Something the Lord Made (2004). Rickman died of pancreatic cancer on 14 January 2016 at age 69.[2][3] His final film roles were as Lieutenant General Frank Benson in the thriller Eye in the Sky (2015), and the voice of Absolem, the caterpillar in Alice Through the Looking Glass (2016).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Alan_Rickman</IRI>
+        <Literal>An English actor and director (21 February 1946 – 14 January 2016).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alfonso_Cuarón</IRI>
+        <Literal>Alfonso Cuarón Orozco (US: /kwɑːˈroʊn/;[1] Spanish: [alˈfonso kwaˈɾon] About this soundpronunciation (help·info); born 28 November 1961) is a Mexican film director, screenwriter, producer, cinematographer, and editor. His work has received critical acclaim and many accolades. He has been nominated for eleven Academy Awards and won five, including two Best Director awards for Gravity (2013) and Roma (2018), the first Latin American director to receive the award. Cuarón&apos;s other notable films include the drama Y Tu Mamá También (2001), the fantasy film Harry Potter and the Prisoner of Azkaban (2004), and the dystopian thriller Children of Men (2006).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Alfonso_Cuarón</IRI>
+        <Literal>a Mexican film director, screenwriter, producer, cinematographer, and editor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bonnie_Wright</IRI>
+        <Literal>Bonnie Francesca Wright[1] (born 17 February 1991)[2] is an English actress, film director, screenwriter, model and producer. She is best known for playing the role of Ginny Weasley in the Harry Potter film series, based on the novel series of the same name by J. K. Rowling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Bonnie_Wright</IRI>
+        <Literal>An English actress, film director, screenwriter, model and producer born 17 February 1991.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chris_Columbus</IRI>
+        <Literal>Columbus is known for directing films such as Home Alone (1990); its sequel, Home Alone 2: Lost in New York (1992); Mrs. Doubtfire (1993); Nine Months (1995); Stepmom (1998); Bicentennial Man (1999); Harry Potter and the Sorcerer&apos;s Stone (2001); its sequel, Harry Potter and the Chamber of Secrets (2002); Percy Jackson &amp; the Olympians: The Lightning Thief (2010); and Pixels (2015). He is also known for writing films such as Gremlins (1984) and The Goonies (1985).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Chris_Columbus</IRI>
+        <Literal>Chris Joseph Columbus (born September 10, 1958) is an American filmmaker.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Chris_Rankin</IRI>
+        <Literal>A New Zealand-born British actor who is best known for playing Percy Weasley in the Harry Potter film franchise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Daniel_Radcliffe</IRI>
+        <Literal>Daniel Jacob Radcliffe (born 23 July 1989)[1] is an English actor and producer. He is known for playing the titular protagonist in the Harry Potter film series, based on the novels by J. K. Rowling.
+
+Born and raised in London, Radcliffe made his acting debut at 10 years of age in BBC One&apos;s 1999 television film David Copperfield, followed by his cinematic debut in 2001&apos;s The Tailor of Panama. At age 11, he was cast as Potter in the series&apos; first film Harry Potter and the Philosopher&apos;s Stone, and starred in the series for 10 years, starring in the lead role in all eight films culminating with the final film in the series, Harry Potter and the Deathly Hallows – Part 2, released in 2011. Radcliffe became one of the highest paid actors in the world during the filming of the Potter films, earned worldwide fame, popularity, and critical acclaim for his role, and received many accolades for his performance in the series.
+
+Following the success of Harry Potter, his subsequent roles include lawyer Arthur Kipps in the Edwardian horror film The Woman in Black (2012), famed beat poet Allen Ginsberg in the independent film Kill Your Darlings (2013), Victor Frankenstein&apos;s assistant Igor in the science fiction fantasy Victor Frankenstein (2015), Manny, a sentient corpse in the comedy-drama Swiss Army Man, technological prodigy Walter Mabry in the heist thriller film Now You See Me 2, and FBI agent Nate Foster in the critically acclaimed thriller Imperium (all 2016). Radcliffe began to branch out to stage acting in 2007, starring in the London and New York productions of Equus for which he received immense praise from critics and audiences alike, and in the 2011 Broadway revival of the musical How to Succeed in Business Without Really Trying.
+
+He has contributed to many charities, including the Demelza Hospice Care for Children, and The Trevor Project for suicide prevention among LGBTQ youth, which gave him its Hero Award in 2011,[2] and is heavily involved in LGBTQ activism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Daniel_Radcliffe</IRI>
+        <Literal>An English actor and producer known for playing the titular protagonist in the Harry Potter film series, based on the novels by J. K. Rowling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>#David_Heyman</IRI>
+        <Literal>David Heyman was born on July 26, 1961 in London, England as David Jonathan Heyman. He is a producer, known for Gravity (2013), Harry Potter and the Deathly Hallows: Part 2 (2011) and Harry Potter and the Sorcerer&apos;s Stone (2001). He is married to Rose Batstone Uniacke. They have one child.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#David_Heyman</IRI>
+        <Literal>A English producer, known for Gravity (2013), Harry Potter and the Deathly Hallows: Part 2 (2011) and Harry Potter and the Sorcerer&apos;s Stone (2001).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#David_Thewlis</IRI>
+        <Literal>David Wheeler (born 20 March 1963), better known as David Thewlis, is an English actor, director, screenwriter, and author. He first rose to prominence for playing Johnny Fletcher in the film Naked (1993), for which he won the Cannes Film Festival Award for Best Actor. His most commercially successful roles to date have been of Remus Lupin in the Harry Potter film series and Sir Patrick Morgan/Ares in Wonder Woman (2017). Other notable film appearances include Dragonheart (1996), Seven Years in Tibet (1997), Kingdom of Heaven (2005), The Boy in the Striped Pyjamas (2008), War Horse (2011), The Theory of Everything (2014) and Anomalisa (2015).
+
+Thewlis has combined major motion picture work with prominent television roles, including portraying Cyrus Crabb in the ABC miniseries Dinotopia (2002) and V. M. Varga in the third season of Fargo (2017).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#David_Thewlis</IRI>
+        <Literal>David Thewlis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#David_Thewlis</IRI>
+        <Literal>An English actor, director, screenwriter, and author.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#David_Yates</IRI>
+        <Literal>David Yates (born 8 October 1963) is an English filmmaker who has directed feature films, short films, and television productions.
+
+Yates rose to mainstream prominence by directing the final four films in the Harry Potter series.[2][3] His work on the series brought him major critical and commercial success along with accolades, such as the British Academy Britannia Award for Excellence in Directing.[3] Yates&apos;s subsequent projects include The Legend of Tarzan and Fantastic Beasts and Where to Find Them (both 2016), and the sequel to Fantastic Beasts and Where to Find Them, Fantastic Beasts: The Crimes of Grindelwald (2018).
+
+Early in his career, Yates directed various short films and became a prolific television director. His credits include the six-part political thriller State of Play (2003), for which he won the Directors Guild of Great Britain Award for Outstanding Directorial Achievement, the adult two-part documentary drama Sex Traffic (2004) and the Emmy Award-winning television film The Girl in the Café (2005).[2][4][5]
+
+Yates is a founding member of Directors UK.[6] He has had a close partnership with Warner Bros. as a director and producer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#David_Yates</IRI>
+        <Literal>An English filmmaker who has directed feature films, short films, and television productions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Direct</IRI>
+        <Literal>An action which controls a film&apos;s artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the technical crew and actors in the fulfillment of that vision.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#DirectedBy</IRI>
+        <Literal>An action which controls a film&apos;s artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the technical crew and actors in the fulfillment of that vision.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Director</IRI>
+        <Literal>A film director is a person who directs the making of a film. A film director controls a film&apos;s artistic and dramatic aspects and visualizes the screenplay (or script) while guiding the technical crew and actors in the fulfillment of that vision. The director has a key role in choosing the cast members, production design, and the creative aspects of filmmaking.[1] Under European Union law, the director is viewed as the author of the film.[2]
+
+The film director gives direction to the cast and crew and creates an overall vision through which a film eventually becomes realized, or noticed. Directors need to be able to mediate differences in creative visions and stay within the boundaries of the film&apos;s budget.
+
+There are many pathways to becoming a film director. Some film directors started as screenwriters, cinematographers, film editors or actors. Other film directors have attended a film school. Directors use different approaches. Some outline a general plotline and let the actors improvise dialogue, while others control every aspect, and demand that the actors and crew follow instructions precisely. Some directors also write their own screenplays or collaborate on screenplays with long-standing writing partners. Some directors edit or appear in their films, or compose the music score for their films.[3]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Director</IRI>
+        <Literal>A person who directs the making of a film.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emma_Thompson</IRI>
+        <Literal>Dame Emma Thompson DBE[2] (born 15 April 1959) is a British actress, screenwriter, activist, author, and comedian. One of the UK&apos;s most acclaimed actresses, she is known for her portrayals of enigmatic women, often in period dramas and literary adaptations, and playing matronly characters with a sense of wit. She is the recipient of various accolades, including two Academy Awards, a Primetime Emmy Award, three BAFTA Awards, and two Golden Globe Awards.
+
+Born in London to English actor Eric Thompson and Scottish actress Phyllida Law, Thompson was educated at Newnham College, University of Cambridge, where she became a member of the Footlights troupe. After appearing in several comedy programmes, she first came to prominence in 1987 in two BBC TV series, Tutti Frutti and Fortunes of War, winning the BAFTA TV Award for Best Actress for her work in both series. Her first film role was in the 1989 romantic comedy The Tall Guy, and in the early 1990s, she frequently collaborated with her then husband, actor and director Kenneth Branagh. The pair became popular in the British media and co-starred in several films, including Dead Again (1991) and Much Ado About Nothing (1993).
+
+In 1992, Thompson won an Academy Award and a BAFTA Award for Best Actress for the period drama Howards End. In 1993, she garnered dual Academy Award nominations for her roles in The Remains of the Day as the housekeeper of a grand household and In the Name of the Father as a lawyer. Thompson scripted and starred in Sense and Sensibility (1995), which earned her numerous awards, including an Academy Award for Best Adapted Screenplay, which makes her the only person to receive Academy Awards for both acting and writing, and a BAFTA Award for Best Actress. Other notable film and television credits include the Harry Potter film series, Wit (2001), Love Actually (2003), Angels in America (2003), Nanny McPhee (2005), Stranger than Fiction (2006), Last Chance Harvey (2008), Men in Black 3 (2012), Brave (2012), and Beauty and the Beast (2017). In 2013, she received acclaim and several award nominations for her portrayal of P. L. Travers in Saving Mr. Banks.
+
+Thompson is married to actor Greg Wise, with whom she lives in London. They have one daughter and one son. She is an activist in the areas of human rights and environmentalism and has received criticism for her outspokenness. She has written two books adapted from The Tale of Peter Rabbit. She was appointed a Dame Commander of the Order of the British Empire (DBE) in the 2018 Birthday Honours by Elizabeth II for her services to drama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Emma_Thompson</IRI>
+        <Literal>A British actress, screenwriter, activist, author, and comedian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emma_Watson</IRI>
+        <Literal>Emma Charlotte Duerre Watson (born 15 April 1990)[3] is an English actress, model, and activist.[4] Born in Paris and brought up in Oxfordshire, Watson attended the Dragon School and trained as an actress at the Oxford branch of Stagecoach Theatre Arts. As a child artist, she rose to prominence after landing her first professional acting role as Hermione Granger in the Harry Potter film series, having acted only in school plays previously.[5] Watson appeared in all eight Harry Potter films from 2001 to 2011, earning worldwide fame, critical accolades, and around $60 million.[6]
+
+Watson continued to work outside of the Harry Potter films, appearing in the 2007 television adaptation of the novel Ballet Shoes and lending her voice to The Tale of Despereaux (2008). Following the last Harry Potter film, she took on starring and supporting roles in My Week with Marilyn (2011), The Perks of Being a Wallflower (2012) and The Bling Ring (2013), made an appearance as an exaggerated version of herself in This Is the End (2013),[7] and portrayed the title character&apos;s adopted daughter in Noah (2014).[8] In 2017, she starred as Belle in a live-action adaptation of the musical romantic fantasy film Beauty and the Beast. Her other roles include Regression (2015), Colonia (2015) and The Circle (2017).
+
+From 2011 to 2014, Watson split her time between working on film projects and continuing her education, studying at Brown University and Worcester College, Oxford and graduating from Brown with a bachelor&apos;s degree in English literature in May 2014.[9] Her modelling work has included campaigns for Burberry and Lancôme.[10][11] As a fashion consultant, she helped create a line of clothing for People Tree.[12] She was honoured by the British Academy of Film and Television Arts in 2014, winning for British Artist of the Year.[13] That same year, she was appointed as a UN Women Goodwill ambassador and helped launch the UN Women campaign HeForShe, which calls for men to advocate gender equality.[14]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Emma_Watson</IRI>
+        <Literal>An English actress, model, and activist born on 15 April 1990.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fiona_Shaw</IRI>
+        <Literal>Fiona Shaw CBE (born Fiona Mary Wilson; 10 July 1958) is an Irish actress and theatre and opera director, known for her role as Petunia Dursley in the Harry Potter film series and her role as Marnie Stonebrook in season four of the HBO series True Blood (2011).[1][2] She has worked extensively with the Royal Shakespeare Company and the National Theatre, twice winning the Olivier Award for Best Actress; for various roles including Electra in 1990, and for Machinal in 1994. She won the 1997 Drama Desk Award for Outstanding Solo Performance for The Waste Land. Her other stage work includes playing the title role in Medea, both in the West End and on Broadway (2001–02). She was awarded an Honorary CBE in 2001.[3]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Fiona_Shaw</IRI>
+        <Literal>An Irish actress and theatre and opera director born Fin 10 July 1958.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gary_Oldman</IRI>
+        <Literal>Gary Leonard Oldman[1] (born 21 March 1958)[2] is an English actor and filmmaker who has performed in theatre, film, and television. Known for his versatility and expressive acting style, Oldman is regarded as one of the greatest actors of his generation. Among other accolades, he has won an Academy Award, three BAFTA Awards, two Critics&apos; Choice Awards, a Golden Globe Award and a Screen Actors Guild Award, along with nominations for an Emmy Award and the Palme d&apos;Or. In 2011, Empire readers voted him the recipient of the Empire Icon Award.
+
+Oldman began acting in theatre in 1979, and made his earliest screen appearances in Remembrance (1982) and Meantime (1983). He continued to lead a stage career, during which he performed at London&apos;s Royal Court and was a member of the Royal Shakespeare Company, with credits including Cabaret (1979), The Massacre at Paris (1980), Entertaining Mr Sloane (1983), Saved (1983), The Country Wife (1987) and Hamlet (1987). Oldman rose to prominence in British film with his portrayals of Sid Vicious in Sid and Nancy (1986), Joe Orton in Prick Up Your Ears (1987), a football firm leader in The Firm (1989) and Rosencrantz in Rosencrantz &amp; Guildenstern Are Dead (1990). Identified with the &quot;Brit Pack&quot;, he achieved greater renown as a Hell&apos;s Kitchen gangster in State of Grace (1990), Lee Harvey Oswald in JFK (1991) and Count Dracula in Bram Stoker&apos;s Dracula (1992).
+
+Oldman went on to star as the antagonists of several films, including True Romance (1993), The Fifth Element (1997), Air Force One (1997) and The Contender (2000); corrupt DEA agent Norman Stansfield, whom Oldman portrayed in Léon: The Professional (1994), has been ranked as one of cinema&apos;s best villains. He meanwhile played Ludwig van Beethoven in Immortal Beloved (1994). In the 21st century, Oldman is known for his roles as Sirius Black in the Harry Potter series, James Gordon in The Dark Knight Trilogy, Lord Shen in Kung Fu Panda 2 (2011), George Smiley in Tinker Tailor Soldier Spy (2011), a human leader in Dawn of the Planet of the Apes (2014), and Winston Churchill in Darkest Hour (2017), which earned him the Academy Award for Best Actor. Films in which he has appeared have grossed over $11 billion.
+
+In addition to acting in film, Oldman wrote and directed Nil by Mouth (1997); featured in television shows, such as Fallen Angels, Tracey Takes On... and Friends; appeared in music videos for David Bowie, Guns N&apos; Roses and Annie Lennox; and provided the voice of Viktor Reznov in the Call of Duty video game series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Gary_Oldman</IRI>
+        <Literal>An English actor and filmmaker who has performed in theatre, film, and television.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Melling</IRI>
+        <Literal>An English actor best known for playing Dudley Dursley in the Harry Potter films.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Chamber_of_Secrets</IRI>
+        <Literal>Harry Potter and the Chamber of Secrets is a 2002 fantasy film directed by Chris Columbus and distributed by Warner Bros. Pictures.[3] It is based on J. K. Rowling&apos;s 1998 novel of the same name. The film is a sequel to the 2001 film Harry Potter and the Philosopher&apos;s Stone and the second instalment in the Harry Potter film series. It was written by Steve Kloves and produced by David Heyman. Its story follows Harry Potter&apos;s second year at Hogwarts School of Witchcraft and Wizardry as the Heir of Salazar Slytherin opens the Chamber of Secrets, unleashing a monster that petrifies the school&apos;s denizens. The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger and is also the last film to feature Richard Harris as Professor Albus Dumbledore, due to his death that same year.
+
+The film was released in theatres in the United Kingdom and the United States on 15 November 2002. It became a critical and commercial success, grossing $879 million at the box office worldwide. It was the second highest-grossing film of 2002 behind The Lord of the Rings: The Two Towers. The movie was nominated for many awards including the BAFTA Award for Best Production Design, Best Sound, and Best Special Visual Effects. It was followed by six sequels, beginning with Harry Potter and the Prisoner of Azkaban in 2004 and ending with Harry Potter and the Deathly Hallows – Part 2 in 2011, nearly ten years after the first film&apos;s release.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Chamber_of_Secrets</IRI>
+        <Literal>A 2002 fantasy film directed by Chris Columbus and distributed by Warner Bros. Pictures. It is based on J. K. Rowling&apos;s 1998 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Goblet_of_Fire</IRI>
+        <Literal>Harry Potter and the Goblet of Fire is a 2005 fantasy film directed by Mike Newell and distributed by Warner Bros. Pictures.[4] It is based on J. K. Rowling&apos;s 2000 novel of the same name. The film, which is the fourth instalment in the Harry Potter film series, was written by Steve Kloves and produced by David Heyman. The story follows Harry&apos;s fourth year at Hogwarts as he is chosen by the Goblet of Fire to compete in the Triwizard Tournament.
+
+The film is the first of the series to receive a PG-13 certificate in the US, and a 12A in the UK, and stars Daniel Radcliffe as Harry Potter alongside Rupert Grint and Emma Watson as Harry&apos;s best friends Ron Weasley and Hermione Granger. It is the sequel to Harry Potter and the Prisoner of Azkaban and is followed by Harry Potter and the Order of the Phoenix.
+
+Filming began in early 2004. The Hogwarts scenes were shot at the Leavesden Film Studios. Five days after its release, the film had grossed over US$102 million at the North American box office, which is the third-highest first-weekend tally for a Harry Potter film behind Harry Potter and the Deathly Hallows – Part 1 and Part 2. Goblet of Fire enjoyed an immensely successful run at the box office, earning $896 million worldwide, which made it the highest-grossing film of 2005 and the eighth-highest-grossing film of all-time at that time and the sixth-highest-grossing film in the Harry Potter series.
+
+The film was nominated for the Academy Award for Best Art Direction, and won the BAFTA Award for Best Production Design. Goblet of Fire was the second film in the series to be released in IMAX. The film is one of the best reviewed instalments within the series, being praised for the higher level of maturity and sophistication of its characters, plotline, screenplay, and the performances of the lead actors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Goblet_of_Fire</IRI>
+        <Literal>A 2005 fantasy film directed by Mike Newell and distributed by Warner Bros. Pictures based on J. K. Rowling&apos;s 2000 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Half-Blood_Prince</IRI>
+        <Literal>Harry Potter and the Half-Blood Prince is a 2009 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[3] It is based on J. K. Rowling&apos;s 2005 novel of the same name. The film, which is the sixth instalment in the Harry Potter film series, was written by Steve Kloves and produced by David Heyman and David Barron.[4] The story follows Harry Potter&apos;s sixth year at Hogwarts as he receives a mysterious textbook, falls in love, and attempts to retrieve a memory that holds the key to Lord Voldemort&apos;s downfall.
+
+The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry&apos;s best friends Ron Weasley and Hermione Granger. It is the sequel to Harry Potter and the Order of the Phoenix and is followed by Harry Potter and the Deathly Hallows – Part 1. Filming began on 24 September 2007, leading to the film&apos;s worldwide cinematic release on 15 July 2009, one day short of the fourth anniversary of the corresponding novel&apos;s release. The film was simultaneously released in regular cinemas and IMAX 3D everywhere except North America, where its IMAX release was delayed for two weeks.[5]
+
+Harry Potter and the Half-Blood Prince premiered in London on 7 July 2009[6] and was released theatrically worldwide on 15 July. The film was a major commercial success, breaking the record for the biggest single-day worldwide gross. In five days the film made $394 million, breaking the record for highest five-day worldwide gross. With a total gross of $934 million, it became the 8th-highest-grossing film of all time[7] and 2009&apos;s second-highest-grossing film (behind Avatar). It is currently the 49th-highest-grossing film of all time worldwide unadjusted for inflation.[8] It is the fifth-highest-grossing film in the franchise.
+
+The film received positive reviews, with praise for Yates&apos;s direction and the performances, cinematography, musical score, and &quot;emotionally satisfying&quot; story.[9][10][11] The film was nominated at the 82nd Academy Awards for Best Cinematography[12] and the 63rd British Academy Film Awards for Best Special Visual Effects and Best Production Design.[13]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Half-Blood_Prince</IRI>
+        <Literal>A 2009 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[3] It is based on J. K. Rowling&apos;s 2005 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Order_of_the_Phoenix</IRI>
+        <Literal>Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[4] It is based on J. K. Rowling&apos;s 2003 novel of the same name. The fifth instalment in the Harry Potter film series, it was written by Michael Goldenberg (making this the only film in the series not to be scripted by Steve Kloves) and produced by David Heyman and David Barron. The story follows Harry Potter&apos;s fifth year at Hogwarts as the Ministry of Magic is in denial of Lord Voldemort&apos;s return.
+
+The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry&apos;s best friends Ron Weasley and Hermione Granger. It is the sequel to Harry Potter and the Goblet of Fire and is followed by Harry Potter and the Half-Blood Prince.
+
+Live-action filming took place in England and Scotland for exterior locations and Leavesden Film Studios in Watford for interior locations from February to November 2006, with a one-month break in June. Post-production on the film continued for several months afterwards to add in visual effects. The film&apos;s budget was reportedly between £75 and 100 million ($150–200 million).[5][6] Warner Bros. released the film in the United Kingdom on 12 July 2007 and in North America on 11 July, both in conventional and IMAX theatres; it is the first Potter film to be released in IMAX 3D.
+
+As of July 2018, Order of the Phoenix is the 48th-highest-grossing film of all time, and a critical and commercial success. The film opened to a worldwide 5-day opening of $333 million, fourteenth all-time, and grossed nearly $940 million total, second to Pirates of the Caribbean: At World&apos;s End for the greatest total of 2007.[7][8] The film was nominated for two BAFTA Film Awards in 2008.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Order_of_the_Phoenix</IRI>
+        <Literal>A 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures based on J. K. Rowling&apos;s 2003 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Prisoner_of_Azkaban</IRI>
+        <Literal>Harry Potter and the Prisoner of Azkaban is a 2004 fantasy film directed by Alfonso Cuarón and distributed by Warner Bros. Pictures.[4] It is based on J. K. Rowling&apos;s 1999 novel of the same name. The film, which is the third instalment in the Harry Potter film series, was written by Steve Kloves and produced by Chris Columbus, David Heyman, and Mark Radcliffe. The story follows Harry Potter&apos;s third year at Hogwarts as he is informed that a prisoner named Sirius Black has escaped from Azkaban intending to kill him.
+
+The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry&apos;s best friends Ron Weasley and Hermione Granger. It also features well-known actors in supporting roles, including Gary Oldman as Sirius Black, David Thewlis as Remus Lupin, Michael Gambon as Albus Dumbledore, Emma Thompson as Sybill Trelawney and Timothy Spall as Peter Pettigrew. It is the sequel to Harry Potter and the Chamber of Secrets and is followed by Harry Potter and the Goblet of Fire.
+
+The film was released on 31 May 2004 in the United Kingdom and on 4 June 2004 in North America, as the first Harry Potter film released into IMAX theatres and to be using IMAX Technology. It was also the last Harry Potter film to be released on VHS in the U.S. The film was nominated for two Academy Awards, Best Original Music Score and Best Visual Effects at the 77th Academy Awards in 2004.
+
+Prisoner of Azkaban grossed a total of $796.7 million worldwide,[4] making it the second highest-grossing film of 2004 and received praise for Cuarón&apos;s direction and the performances of the lead actors.[5] It marked a notable change in the film series&apos; tone and directing, and is considered by many critics and fans to be one of the best Harry Potter films</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Prisoner_of_Azkaban</IRI>
+        <Literal>A 2004 fantasy film directed by Alfonso Cuarón and distributed by Warner Bros. Pictures based on J. K. Rowling&apos;s 1999 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Helena_Bonham_Carter</IRI>
+        <Literal>Helena Bonham Carter CBE (born 26 May 1966) is an English actress. She is known for her roles in both low-budget independent art films and large-scale blockbusters. She was nominated for the Academy Award for Best Actress for her role as Kate Croy in The Wings of the Dove (1997). For her role as Queen Elizabeth in The King&apos;s Speech (2010), she was nominated for the Academy Award for Best Supporting Actress and won the BAFTA Award for Best Actress in a Supporting Role. She also won the 2010 International Emmy Award for Best Actress for her role as British author Enid Blyton in the TV film Enid (2009).
+
+Bonham Carter began her film career, playing the title character in Lady Jane (1986), and playing Lucy Honeychurch in A Room with a View (1985). Her other film roles include Ophelia in Hamlet (1990), Where Angels Fear to Tread (1991), Howards End (1992), Elizabeth Lavenza in Mary Shelley&apos;s Frankenstein (1994), Woody Allen&apos;s Mighty Aphrodite (1995), Marla Singer in Fight Club (1999), Bellatrix Lestrange in the Harry Potter series (2007–11), Skynet in Terminator Salvation (2009), Miss Havisham in Great Expectations (2012), Madame Thénardier in Les Misérables (2012), the Fairy Godmother in Cinderella (2015) and Rose Weil in Ocean&apos;s 8 (2018). She has frequently collaborated with director Tim Burton; in Planet of the Apes (2001), Big Fish (2003), Corpse Bride (2005), Charlie and the Chocolate Factory (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) where she played Mrs. Lovett, Dark Shadows (2012), and playing the Red Queen in Alice in Wonderland (2010) and its sequel Alice Through the Looking Glass (2016). Her other television films include A Pattern of Roses (1983), Fatal Deception: Mrs. Lee Harvey Oswald (1993), Live from Baghdad (2002), Toast (2010), and Burton &amp; Taylor (2013). In 2018, she was confirmed to play Princess Margaret for season three and four of The Crown.
+
+She was made a Commander of the Order of the British Empire (CBE) in the 2012 New Year Honours list for services to drama,[1] and in January 2014, the British prime minister, David Cameron, announced that Bonham Carter had been appointed to Britain&apos;s new national Holocaust Commission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Helena_Bonham_Carter</IRI>
+        <Literal>An English actress known for her roles in both low-budget independent art films and large-scale blockbusters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#J._K._Rowling</IRI>
+        <Literal>Joanne Rowling CH, OBE, FRSL, FRCPE, FRSE, (/ˈroʊlɪŋ/ &quot;rolling&quot;;[1] born 31 July 1965), writing under the pen names J. K. Rowling and Robert Galbraith, is a British novelist, philanthropist, film producer, television producer and screenwriter, best known for writing the Harry Potter fantasy series. The books have won multiple awards, and sold more than 500 million copies,[2] becoming the best-selling book series in history.[3] They have also been the basis for a film series, over which Rowling had overall approval on the scripts[4] and was a producer on the final films in the series.[5]
+
+Born in Yate, Gloucestershire, England, Rowling was working as a researcher and bilingual secretary for Amnesty International when she conceived the idea for the Harry Potter series while on a delayed train from Manchester to London in 1990.[6] The seven-year period that followed saw the death of her mother, birth of her first child, divorce from her first husband and relative poverty until the first novel in the series, Harry Potter and the Philosopher&apos;s Stone, was published in 1997. There were six sequels, of which the last, Harry Potter and the Deathly Hallows, was released in 2007. Since then, Rowling has written five books for adult readers: The Casual Vacancy (2012) and—under the pseudonym Robert Galbraith—the crime fiction novels The Cuckoo&apos;s Calling (2013), The Silkworm (2014), Career of Evil (2015), and Lethal White (2018).[7]
+
+Rowling has lived a &quot;rags to riches&quot; life story, in which she progressed from living on state benefits to being the world&apos;s first billionaire author.[8] She lost her billionaire status after giving away much of her earnings to charity, but remains one of the wealthiest people in the world.[9] She is the United Kingdom&apos;s bestselling living author, with sales in excess of £238M.[10] The 2016 Sunday Times Rich List estimated Rowling&apos;s fortune at £600 million, ranking her as the joint 197th richest person in the UK.[11] Time named her a runner-up for its 2007 Person of the Year, noting the social, moral, and political inspiration she has given her fans.[12] In October 2010, Rowling was named the &quot;Most Influential Woman in Britain&quot; by leading magazine editors.[13] She has supported charities, including Comic Relief, One Parent Families and Multiple Sclerosis Society of Great Britain, and launched her own charity, Lumos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#J._K._Rowling</IRI>
+        <Literal>A British novelist, philanthropist, film producer, television producer and screenwriter, best known for writing the Harry Potter fantasy series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#James_Phelps</IRI>
+        <Literal>British twin actor best known for playing George Weasley in the Harry Potter film series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Julie_Walters</IRI>
+        <Literal>An English actress and writer born 22 February 1950.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maggie_Smith</IRI>
+        <Literal>Dame Margaret Natalie Smith CH DBE (born 28 December 1934) is an English actress. She has had an extensive, varied career on stage, film, and television, spanning over 67 years. Smith has appeared in over 50 films, and is one of Britain&apos;s most recognizable actresses. A prominent figure in British culture for six decades, she was made a Dame by Queen Elizabeth II in 1990 for services to the performing arts,[1] and received the Companion of Honour from the Queen in 2014 for services to drama.[2]
+
+Smith began her career on stage as a student, performing at the Oxford Playhouse in 1952, and made her professional debut on Broadway in New Faces of &apos;56. For her work on the London stage, she has won a record five Best Actress Evening Standard Awards: for The Private Ear (1962) and The Public Eye (1962), Hedda Gabler (1970), Virginia (1981), The Way of the World (1984), and Three Tall Women (1994). She received Tony Award nominations for Private Lives (1975) and Night and Day (1979), before winning the 1990 Tony Award for Best Actress in a Play for Lettice and Lovage. Other stage roles include Stratford Shakespeare Festival productions of Antony and Cleopatra (1976) and Macbeth (1978), and West End productions of A Delicate Balance (1997) and The Breath of Life (2002).
+
+On screen, Smith first drew praise for the crime film Nowhere to Go (1958), for which she received her first BAFTA Award nomination.[3] She has won two Academy Awards, winning Best Actress for The Prime of Miss Jean Brodie (1969) and Best Supporting Actress for California Suite (1978). She is one of only six actresses to have won in both categories.[4] She has won a record four BAFTA Awards for Best Actress, including for A Private Function (1984) and The Lonely Passion of Judith Hearne (1988), a BAFTA for Best Supporting Actress for Tea With Mussolini (1999), and three Golden Globe Awards. A six-time Oscar nominee, her other nominations were for Othello (1965), Travels with My Aunt (1972), A Room with a View (1986), and Gosford Park (2001).
+
+Smith played Professor Minerva McGonagall in the Harry Potter film series (2001–2011). Other notable films include Love and Pain and the Whole Damn Thing (1973), Death on the Nile (1978), Clash of the Titans (1981), Evil Under the Sun (1982), Hook (1991), Sister Act (1992), The Secret Garden (1993), The Best Exotic Marigold Hotel (2012), and The Lady in the Van (2015). She won an Emmy Award in 2003 for My House in Umbria, to become one of the few actresses to have achieved the Triple Crown of Acting,[5][6] and starred as Lady Violet Crawley, Dowager Countess of Grantham, on Downton Abbey (2010–2015), for which she won three Emmys, her first non-ensemble Screen Actors Guild Award, and her third Golden Globe. Her honorary awards include the BAFTA Special Award in 1993, the BAFTA Fellowship in 1996, and the Special Olivier Award in 2011. She received the Stratford Shakespeare Festival&apos;s Legacy Award in 2012,[7] and the Bodley Medal by the University of Oxford&apos;s Bodleian Libraries in 2016.[8]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Maggie_Smith</IRI>
+        <Literal>An English actress(born 28 December 1934) with an extensive, varied career on stage, film, and television, spanning over 67 years.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Matthew_Lewis</IRI>
+        <Literal>Matthew David Lewis (born 27 June 1989)[1] is an English film, television and stage actor, best known for playing Neville Longbottom in the Harry Potter films, Jamie Bradley in The Syndicate and Corporal Gordon &quot;Towerblock&quot; House in the BBC Three comedy drama Bluestone 42.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Matthew_Lewis</IRI>
+        <Literal>An English film, television and stage actor born on 27 June 1989.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Michael_Gambon</IRI>
+        <Literal>Sir Michael John Gambon CBE (born 19 October 1940) is an Irish-born British actor who has worked in theatre, television, and film. Gambon has played the eponymous mystery writer protagonist in the BBC television serial The Singing Detective, Jules Maigret in the 1990s ITV serial Maigret, and Professor Albus Dumbledore in the final six Harry Potter films after the death of Richard Harris who had previously played the role. He has won four BAFTA TV Awards and three Olivier Awards. He was knighted in 1998 for services to drama, and he was awarded the Irish Film &amp; Television Academy Lifetime Achievement Award in 2017 for his contribution to Irish film.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Michael_Gambon</IRI>
+        <Literal>An Irish-born British actor who has worked in theatre, television, and film.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mike_Newell</IRI>
+        <Literal>Michael Cormac Newell (born 28 March 1942) is an English director and producer of motion pictures for film and television.[1] Newell won the 1994 BAFTA Award for Best Direction for Four Weddings and a Funeral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Mike_Newell</IRI>
+        <Literal>An English director and producer of motion pictures for film and television.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Movie</IRI>
+        <Literal>A film, also called a movie, motion picture, moving picture, or photoplay, is a series of still images that, when shown on a screen, create the illusion of moving images. (See the glossary of motion picture terms.)
+
+This optical illusion causes the audience to perceive continuous motion between separate objects viewed in rapid succession. The process of filmmaking is both an art and an industry. A film is created by photographing actual scenes with a motion-picture camera, by photographing drawings or miniature models using traditional animation techniques, by means of CGI and computer animation, or by a combination of some or all of these techniques, and other visual effects.
+
+The word &quot;cinema&quot;, short for cinematography, is often used to refer to filmmaking and the film industry, and to the art of filmmaking itself. The contemporary definition of cinema is the art of simulating experiences to communicate ideas, stories, perceptions, feelings, beauty or atmosphere by the means of recorded or programmed moving images along with other sensory stimulations.[1]
+
+Films were originally recorded onto plastic film through a photochemical process and then shown through a movie projector onto a large screen. Contemporary films are now often fully digital through the entire process of production, distribution, and exhibition, while films recorded in a photochemical form traditionally included an analogous optical soundtrack (a graphic recording of the spoken words, music and other sounds that accompany the images which runs along a portion of the film exclusively reserved for it, and is not projected).
+
+Films are cultural artifacts created by specific cultures. They reflect those cultures, and, in turn, affect them. Film is considered to be an important art form, a source of popular entertainment, and a powerful medium for educating—or indoctrinating—citizens. The visual basis of film gives it a universal power of communication. Some films have become popular worldwide attractions through the use of dubbing or subtitles to translate the dialog into other languages.
+
+The individual images that make up a film are called frames. In the projection of traditional celluloid films, a rotating shutter causes intervals of darkness as each frame, in turn, is moved into position to be projected, but the viewer does not notice the interruptions because of an effect known as persistence of vision, whereby the eye retains a visual image for a fraction of a second after its source disappears. The perception of motion is due to a psychological effect called the phi phenomenon.
+
+The name &quot;film&quot; originates from the fact that photographic film (also called film stock) has historically been the medium for recording and displaying motion pictures. Many other terms exist for an individual motion-picture, including picture, picture show, moving picture, photoplay, and flick. The most common term in the United States is movie, while in Europe film is preferred. Common terms for the field in general include the big screen, the silver screen, the movies, and cinema; the last of these is commonly used, as an overarching term, in scholarly texts and critical essays. In early years, the word sheet was sometimes used instead of screen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movie</IRI>
+        <Literal>film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movie</IRI>
+        <Literal>motion picture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movie</IRI>
+        <Literal>moving picture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Movie</IRI>
+        <Literal>photoplay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Movie</IRI>
+        <Literal>A series of still images that, when shown on a screen, create the illusion of moving images.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Oliver_Phelps</IRI>
+        <Literal>British twin actor best known for playing Fred Weasley in the Harry Potter film series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Produce</IRI>
+        <Literal>An action which plans and coordinates various aspects of film production, such as selecting the script; coordinating writing, directing, and editing; and arranging financing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#ProducedBy</IRI>
+        <Literal>An action which plans and coordinates various aspects of film production, such as selecting the script; coordinating writing, directing, and editing; and arranging financing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Producer</IRI>
+        <Literal>A person who oversees film production and coordinate various aspects of film production, such as selecting the script; coordinating writing, directing, and editing; and arranging financing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Ralph_Fiennes</IRI>
+        <Literal>An English actor, film producer, director and a Shakespeare interpreter who first achieved success onstage at the Royal National Theatre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richard_Griffiths</IRI>
+        <Literal>Richard Thomas Griffiths OBE (31 July 1947 – 28 March 2013)[1][2] was an English actor of film, television, and stage. He received the Laurence Olivier Award for Best Actor, the Drama Desk Award for Outstanding Actor in a Play, the Outer Critics Circle Award for Best Featured Actor and the Tony Award for Best Performance by a Leading Actor in a Play, all for his role in The History Boys. For the 2006 film adaptation, Griffiths was nominated for the BAFTA Award for Best Actor in a Leading Role.
+
+He was also known for his portrayal of Vernon Dursley in the Harry Potter film series, Uncle Monty in Withnail and I (1987), Dr. Albert Meinheimer in The Naked Gun 2½: The Smell of Fear (1991), Henry Crabbe in Pie in the Sky (1994–1997), Prostetnic Vogon Jeltz in The Hitchhiker&apos;s Guide to the Galaxy and King George II in Disney&apos;s Pirates of the Caribbean: On Stranger Tides (2011). Earlier in his career, he had a prominent supporting role as British journalist Collins in Richard Attenborough&apos;s Academy Award-winning film Gandhi (1982).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Richard_Griffiths</IRI>
+        <Literal>An English actor of film, television, and stage (31 July 1947 – 28 March 2013).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richard_Harris</IRI>
+        <Literal>Richard St. John Harris (1 October 1930 – 25 October 2002) was an Irish actor and singer. He appeared on stage and in many films, appearing as Frank Machin in This Sporting Life, for which he was nominated for the Academy Award for Best Actor, and King Arthur in the 1967 film Camelot, as well as the 1981 revival of the stage musical. He played an aristocrat captured by Native Americans in A Man Called Horse (1970), a gunfighter in Clint Eastwood&apos;s Western film Unforgiven (1992), Emperor Marcus Aurelius in Gladiator (2000), and Albus Dumbledore in the first two Harry Potter films: Harry Potter and the Philosopher&apos;s Stone (2001) and Harry Potter and the Chamber of Secrets (2002), the latter of which was his final film role. Harris had a number-one hit in Australia and Canada and a top ten hit in the United Kingdom, Ireland and United States with his 1968 recording of Jimmy Webb&apos;s song &quot;MacArthur Park&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Richard_Harris</IRI>
+        <Literal>An Irish actor and singer (1 October 1930 – 25 October 2002).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Robbie_Coltrane</IRI>
+        <Literal>Robbie Coltrane OBE (born Anthony Robert McMillan; 30 March 1950) is a Scottish actor and author. He is known for his roles as Rubeus Hagrid in the Harry Potter films, as Valentin Dmitrovich Zhukovsky in the James Bond films GoldenEye and The World Is Not Enough, and as Dr. Eddie &quot;Fitz&quot; Fitzgerald in the British TV series Cracker during the 1990s.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Robbie_Coltrane</IRI>
+        <Literal>A Scottish actor and author born on 30 March 1950.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rupert_Grint</IRI>
+        <Literal>Rupert Alexander Lloyd Grint[2] (born 24 August 1988) is an English actor and producer. He rose to prominence for his portrayal of Ron Weasley, one of the three main characters in the Harry Potter film series. Grint was cast as Ron at the age of 11, having previously acted only in school plays and at his local theatre group. From 2001 to 2011, he starred in all eight Harry Potter films.
+
+Beginning in 2002, Grint began to work outside of the Harry Potter franchise, playing a co-leading role in Thunderpants. He has had starring roles in Driving Lessons, a dramedy released in 2006, and Cherrybomb, a drama film of limited release in 2010. Grint co-starred with Bill Nighy and Emily Blunt in Wild Target, a comedy. His first film project following the end of the Harry Potter series was the 2012 anti-war film, Into the White, in which he has a supporting role. In 2013, Grint&apos;s new film CBGB was released and he was cast in CBS&apos;s new show Super Clyde. Grint made his stage debut in Jez Butterworth&apos;s Mojo in October 2013 at the Harold Pinter Theatre in London.[3] In 2014 he voiced the character of Josh in Postman Pat: The Movie, and in 2017, he starred in and was executive producer of the television series Snatch, based on the film of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Rupert_Grint</IRI>
+        <Literal>An English actor and producer born on 24 August 1988.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tom_Felton</IRI>
+        <Literal>Thomas Andrew Felton[1] (born 22 September 1987)[2] is an English actor and musician. Felton began appearing in commercials when he was eight years old for companies such as Commercial Union and Barclaycard. He made his screen debut in the role of Peagreen Clock in The Borrowers (1997) and he portrayed Louis T. Leonowens in Anna and the King (1999). He rose to prominence for his role as Draco Malfoy in the film adaptions of the best-selling Harry Potter fantasy novels by J.K. Rowling. His performances in Harry Potter and the Half-Blood Prince and Harry Potter and the Deathly Hallows – Part 1 won him two consecutive MTV Movie Awards for Best Villain in 2010 and 2011.
+
+Following the conclusion of the series in 2011, Felton appeared in the 2011 film Rise of the Planet of the Apes, a reboot of the Planet of the Apes series.[3] He had roles in the minor films From the Rough (2011) and The Apparition (2012), starred as James Ashford in the critically acclaimed period drama film Belle (2013), followed by roles in In Secret (2014) and Against the Sun (2014). Felton&apos;s 2016 films include the epic biblical drama Risen, alongside Joseph Fiennes, and the period biopic A United Kingdom, alongside David Oyelowo and Rosamund Pike. He portrayed Julian Albert on The Flash.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Tom_Felton</IRI>
+        <Literal>An English actor and musician born on 22 September 1987.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Warwick_Davis</IRI>
+        <Literal>Warwick Ashley Davis (born 3 February 1970)[3] is an English actor, television presenter, writer, director and producer.[4] He played the title characters in Willow and the Leprechaun film series, the Ewok Wicket in Star Wars Episode VI: Return of the Jedi and Professor Filius Flitwick and Griphook in the Harry Potter films. Davis also starred as a fictionalised version of himself in the sitcom Life&apos;s Too Short, written and directed by Ricky Gervais and Stephen Merchant.
+
+He has presented ITV game shows Celebrity Squares (2014–2015) and Tenable (2016–present).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Warwick_Davis</IRI>
+        <Literal>An English actor, television presenter, writer, director and producer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Write</IRI>
+        <Literal>An action which practices the craft of screenwriting, writing screenplays on which mass media, such as films, television programs and video games, are based.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Writer</IRI>
+        <Literal>scenarist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Writer</IRI>
+        <Literal>screenwriter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Writer</IRI>
+        <Literal>scriptwriter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Writer</IRI>
+        <Literal>A writer who practices the craft of screenwriting, writing screenplays on which mass media, such as films, television programs and video games, are based.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#WrittenBy</IRI>
+        <Literal>An action which practices the craft of screenwriting, writing screenplays on which mass media, such as films, television programs and video games, are based.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Deathly_Hallows_–_Part_1</IRI>
+        <Literal>Harry Potter and the Deathly Hallows – Part 1 is a 2010 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[4] It is the first of two cinematic parts based on J. K. Rowling&apos;s 2007 novel of the same name and features an ensemble cast.[5] The film, which is the seventh and penultimate instalment in the Harry Potter film series, was written by Steve Kloves and produced by David Heyman, David Barron, and Rowling.
+
+The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson, respectively, reprising roles as Harry&apos;s best friends Ron Weasley and Hermione Granger. It is the sequel to Harry Potter and the Half-Blood Prince and is followed by the concluding entry, Harry Potter and the Deathly Hallows – Part 2.
+
+The story follows Harry Potter who has been tasked by Dumbledore with finding and destroying Lord Voldemort&apos;s secret to immortality – the Horcruxes. Filming began on 19 February 2009 and was completed on 12 June 2010.[6] Part 1 was released in 2D cinemas and IMAX formats worldwide on 19 November 2010.[7][8][9][10]
+
+In the film&apos;s worldwide opening weekend, Part 1 grossed $330 million, the third-highest in the series, and the highest opening of 2010, as well as the eighth-highest of all time.[11] With a worldwide gross of $960 million, Part 1 is the third highest-grossing film of 2010, behind Toy Story 3 and Alice in Wonderland,[12] and the third-highest-grossing Harry Potter film in terms of worldwide totals, behind Deathly Hallows – Part 2 and Philosopher&apos;s Stone.[13] The film at one point became the tenth highest-grossing film of all time,[14] and is the 42nd as of July 2018. Additionally, it received two nominations at the 83rd Academy Awards: Best Art Direction and Best Visual Effects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Deathly_Hallows_–_Part_1</IRI>
+        <Literal>A 2010 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[4] It is the first of two cinematic parts based on J. K. Rowling&apos;s 2007 novel of the same name and features an ensemble cast.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Deathly_Hallows_–_Part_2</IRI>
+        <Literal>Harry Potter and the Deathly Hallows – Part 2 is a 2011 fantasy film directed by David Yates and distributed by Warner Bros. Pictures.[4] It is the second of two cinematic parts based on J. K. Rowling&apos;s 2007 novel of the same name.[5] The film, which is the eighth and final instalment in the Harry Potter film series, was written by Steve Kloves and produced by David Heyman, David Barron, and Rowling. The story continues to follow Harry Potter&apos;s quest to find and destroy Lord Voldemort&apos;s Horcruxes in order to stop him once and for all.
+
+The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry&apos;s best friends, Ron Weasley and Hermione Granger. Principal photography began on 19 February 2009, and was completed on 12 June 2010,[6] with reshoots taking place in December 2010, more than ten years after filming started on the first instalment of the series. Part 2 was released in 2D, 3-D and IMAX cinemas worldwide from 13–15 July 2011, and is the only Harry Potter film to be released in 3-D.[7]
+
+The film became a commercial success and was critically acclaimed, and one of the best reviewed films of 2011, with the acting, Yates&apos;s direction, musical score, visual effects, cinematography, action sequences, and satisfying conclusion of the saga earning notable praise.[8][9][10] At the box office, Part 2 claimed the worldwide opening weekend record, earning $483.2 million, as well as setting opening day and opening weekend records in various countries. As of 2018, the film is the tenth-highest-grossing film of all time.[11] It became the highest-grossing film of 2011, the highest-grossing film in the Harry Potter series, and the ninth film to gross over $1 billion.[12]
+
+The Blu-ray and DVD sets were released on 11 November 2011 in the United States[13] and on 2 December 2011 in the United Kingdom.[14] The film was also released in the Harry Potter: Complete 8-Film Collection box set on DVD and Blu-ray, which included all eight films and new special features. Part 1 and Part 2 were released as a combo pack on DVD and Blu-ray on 11 November 2011 in Canada.
+
+The film won several awards and was nominated for many more, including three nominations at the Academy Awards for Best Art Direction, Best Makeup and Best Visual Effects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Deathly_Hallows_–_Part_2</IRI>
+        <Literal>A 2011 fantasy film directed by David Yates and distributed by Warner Bros. Pictures. It is the second of two cinematic parts based on J. K. Rowling&apos;s 2007 novel of the same name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Harry_Potter_and_the_Sorcerer&apos;s_Stone</IRI>
+        <Literal>This is the tale of Harry Potter, an ordinary 11-year-old boy serving as a sort of slave for his aunt and uncle who learns that he is actually a wizard and has been invited to attend the Hogwarts School for Witchcraft and Wizardry. Harry is snatched away from his mundane existence by Rubeus Hagrid, the grounds keeper for Hogwarts, and quickly thrown into a world completely foreign to both him and the viewer. Famous for an incident that happened at his birth, Harry makes friends easily at his new school. He soon finds, however, that the wizarding world is far more dangerous for him than he would have imagined, and he quickly learns that not all wizards are ones to be trusted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>#Harry_Potter_and_the_Sorcerer&apos;s_Stone</IRI>
+        <Literal>A movie about an orphaned boy who enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
